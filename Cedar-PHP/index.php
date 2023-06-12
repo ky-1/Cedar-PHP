@@ -18,7 +18,6 @@ $router->addRoutes(array(
     array('GET|POST', '/settings/account', 'cedarSettings.php', 'Cedar-settings'),
     array('GET|POST', '/admin_panel', 'admin/admin.php', 'Admin'),
     array('GET|POST', '/admin_panel/[*:action]', 'admin/admin.php', 'Admin-option'),
-    array('GET|POST', '/titles/new', 'create_community.php', 'Create-community'),
     array('GET|POST', '/titles/[i:title_id]/edit', 'edit_community.php', 'Edit-community'),
     array('POST', '/messages/[i:id]/rm', 'deleteMessage.php', 'Delete-Message'),
     array('GET|POST', '/messages/[*:action]', 'messages.php', 'Messages'),
