@@ -17,10 +17,7 @@ $tabTitle = 'Communities - Cedar';
             <h2 class="label">What is Cedar?</h2>
             <p style="width: 90%; display: inine-block; padding: 10px;">you're mother</p>
         </div>
-
-        <button type="button" onclick="$.pjax({url: '/titles/new', container: '#main-body'});" class="symbol button create-button" style="padding: 14px 60px;">
-            <span class="favorite-button-text">Create Community</span>
-        </button>
+	    
         <br>
     </div>
     <div class="community-main">
