@@ -19,7 +19,7 @@ function mysql_machine_broke()
 }
 
 
-$dbc = @mysqli_connect('Host', 'Username', 'Password', 'Name');
+$dbc = @mysqli_connect('localhost', 'root', '', 'cedar');
 if (!$dbc) {
     mysql_machine_broke();
 }
